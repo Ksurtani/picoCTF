@@ -1,0 +1,60 @@
+## Problem:
+
+We made a lot of substitutions to encrypt this. Can you decrypt it? Connect with nc jupiter.challenges.picoctf.org 39894.
+
+## Solution:
+Open terminal and type "nc jupiter.challenges.picoctf.org 39894".
+
+You will get the encrypted text:
+
+-------------------------------------------------------------------------------
+fsxwarcj yoao zj esna vprw - vaohnoxfe_zj_f_suoa_prmbdr_rwvpfwceno
+-------------------------------------------------------------------------------
+bocgoox nj cyoao grj, rj z yruo rpaorde jrzd jsmogyoao, cyo bsxd sv cyo jor. 
+bojzdoj yspdzxw sna yoracj cswocyoa cyasnwy psxw loazsdj sv jolrarczsx, 
+zc yrd cyo ovvofc sv mrtzxw nj cspoarxc sv orfy scyoa'j eraxjrxd ouox fsxuzfczsxj.
+cyo prgeoacyo bojc sv spd voppsgjyrd, bofrnjo sv yzj mrxe eoraj rxd mrxe uzacnoj,
+cyo sxpe fnjyzsx sx doft, rxd grj pezxw sx cyo sxpe anw. 
+cyo rffsnxcrxc yrd basnwyc snc rpaorde r bsk sv dsmzxsoj, 
+rxd grj csezxw rafyzcofcnarppe gzcy cyo bsxoj. mrapsg jrc fasjj-powwod azwyc rvc,
+porxzxw rwrzxjc cyo mzqqox-mrjc. yo yrd jnxtox fyootj, r eoppsg fsmlpokzsx, 
+r jcarzwyc brft, rx rjfoczf rjlofc, rxd, gzcy yzj ramj dasllod, cyo lrpmj sv yrxdj sncgradj,
+aojombpod rx zdsp. cyo dzaofcsa, jrczjvzod cyo rxfysa yrd wssd yspd, mrdo yzj gre rvc rxd
+jrc dsgx rmsxwjc nj. go okfyrxwod r vog gsadj prqzpe. rvcoagradj cyoao grj jzpoxfo sx bsrad cyo erfyc.
+vsa jsmo aorjsx sa scyoa go dzd xsc bowzx cyrc wrmo sv dsmzxsoj. go vopc modzcrczuo, rxd vzc vsa 
+xscyzxw bnc lprfzd jcrazxw. cyo dre grj oxdzxw zx r joaoxzce sv jczpp rxd okhnzjzco bazppzrxfo.
+cyo grcoa jysxo lrfzvzfrppe; cyo jte, gzcysnc r jloft, grj r boxzwx zmmoxjzce sv nxjcrzxod pzwyc;
+cyo uoae mzjc sx cyo ojjok mrajy grj pzto r wrnqe rxd ardzrxc vrbazf, ynxw vasm cyo gssdod azjoj
+zxprxd, rxd darlzxw cyo psg jysaoj zx dzrlyrxsnj vspdj. sxpe cyo wpssm cs cyo gojc, bassdzxw suoa
+cyo nlloa aorfyoj, bofrmo msao jsmbao ouoae mzxnco, rj zv rxwoaod be cyo rllasrfy sv cyo jnx.
+
+Go to website :https://www.dcode.fr/monoalphabetic-substitution
+Paste this and decrypt it.
+
+You will get this decrypted  file:
+
+------------------------------------------------------------------------------- 
+     CONGRATS HERE IS YOUR FLAG - FREQUENCY_IS_C_OVER_LAMBDA_AGFLCGTYUE 
+------------------------------------------------------------------------------- 
+BETWEEN US THERE WAS, AS I HAVE ALREADY SAID SOMEWHERE, THE BOND OF THE SEA. 
+BESIDES HOLDING OUR HEARTS TOGETHER THROUGH LONG PERIODS OF SEPARATION, 
+IT HAD THE EFFECT OF MAKING US TOLERANT OF EACH OTHER'S YARNSAND EVEN CONVICTIONS.
+THE LAWYERTHE BEST OF OLD FELLOWSHAD, BECAUSE OF HIS MANY YEARS AND MANY VIRTUES,
+THE ONLY CUSHION ON DECK, AND WAS LYING ON THE ONLY RUG. THE ACCOUNTANT HAD BROUGHT 
+OUT ALREADY A BOX OF DOMINOES, AND WAS TOYING ARCHITECTURALLY WITH THE BONES. 
+MARLOW SAT CROSS-LEGGED RIGHT AFT, LEANING AGAINST THE MIZZEN-MAST. HE HAD SUNKEN CHEEKS,
+A YELLOW COMPLEXION, A STRAIGHT BACK, AN ASCETIC ASPECT, AND, WITH HIS ARMS DROPPED, 
+THE PALMS OF HANDS OUTWARDS, RESEMBLED AN IDOL. THE DIRECTOR, SATISFIED THE ANCHOR HAD GOOD HOLD,
+MADE HIS WAY AFT AND SAT DOWN AMONGST US. WE EXCHANGED A FEW WORDS LAZILY. AFTERWARDS THERE WAS
+SILENCE ON BOARD THE YACHT. FOR SOME REASON OR OTHER WE DID NOT BEGIN THAT GAME OF DOMINOES. 
+WE FELT MEDITATIVE, AND FIT FOR NOTHING BUT PLACID STARING. THE DAY WAS ENDING IN A SERENITY 
+OF STILL AND EXQUISITE BRILLIANCE. THE WATER SHONE PACIFICALLY; THE SKY, WITHOUT A SPECK, WAS 
+A BENIGN IMMENSITY OF UNSTAINED LIGHT; THE VERY MIST ON THE ESSEX MARSH WAS LIKE A GAUZY AND RADIANT 
+FABRIC, HUNG FROM THE WOODED RISES INLAND, AND DRAPING THE LOW SHORES IN DIAPHANOUS FOLDS. ONLY THE 
+GLOOM TO THE WEST, BROODING OVER THE UPPER REACHES, BECAME MORE SOMBRE EVERY MINUTE, AS IF ANGERED 
+BY THE APPROACH OF THE SUN.
+
+## Flag:
+
+FREQUENCY_IS_C_OVER_LAMBDA_AGFLCGTYUE 
+
