@@ -2,7 +2,7 @@
 
 There's an interesting script in the user's home directory
 The work computer is running SSH. We've been given a script 
-which performs some basic calculations, explore the script and find a flag.
+that performs some basic calculations, explores the script, and finds a flag.
 Hostname: saturn.picoctf.net
 Port:     64055
 Username: picoplayer
@@ -16,15 +16,15 @@ Port:     64055
 Username: picoplayer
 Password: password
 
-Go to terminal and connect to the portby typing:"ssh -p 64055 picoplayer@saturn.picoctf.net"
+Go to the terminal and connect to the port by typing: "ssh -p 64055 picoplayer@saturn.picoctf.net"
 NOTE:
-a)The port is diffrent for everyone.
-b)In terminal you won’t see the password getting typed.
+a)The port is different for everyone.
+b)In the terminal you won’t see the password getting typed.
 c)-p is used when a specific port is used.
 
-Type the password and you will be connected.
+You can just type the password and you will be connected.
 Try ls to see the list of all files.
-You will find useless named file.
+You will find useless named files.
 Try cd or cat on the file to check if it is a directory or readable file.
 Once the file is read you will get this code:
 
@@ -61,8 +61,8 @@ else
 	fi
 fi
 
-Reading the code you will find the else part doesn’t make sense and that’s the hint.
-To read the manual in linux we use the 'man' command.
+Reading the code you will find the other part doesn’t make sense and that’s the hint.
+To read the manual in Linux we use the 'man' command.
 Try 'man useless' and this will be the output:
 
 useless
@@ -72,8 +72,8 @@ SYNOPSIS
      useless, [add sub mul div] number1 number2
 
 DESCRIPTION
-     Use the useless, macro to make simple calulations like addition,subtrac‐
-     tion, multiplication and division.
+     Use the useless, macro to make simple calculations like addition, subtraction‐
+     , multiplication, and division.
 
 Examples
      ./useless add 1 2
@@ -86,7 +86,7 @@ Examples
        This will return 2 as a quotient of 6 and 3
 
      ./useless sub 6 5
-       This will return 1 as a remainder of substraction of 5 from 6
+       This will return 1 as a reminder of subtraction of 5 from 6
 
 Authors
      This script was designed and developed by Cylab Africa
