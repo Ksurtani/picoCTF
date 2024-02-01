@@ -8,5 +8,8 @@ passwords based on the password conventions we've seen so far.
 
 ## Solution:
 
-Use the python file uploaded in the folder download all other file
+Use the Python file uploaded in the folder and download all other files.
 and keep them in the same directory.
+
+## Flag:
+picoCTF{h45h_sl1ng1ng_36e992a6}
